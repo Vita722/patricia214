@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>TRISHA RESTAURANT</title>
+  <link rel="stylesheet" href="trisha.css" id="desktop">
+
+  <style>
+    body {
+      background-color: lightgoldenrodyellow;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: brown;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 25px;
+    }
+
+    footer {
+      background-color: brown;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Styling for menu images */
+    .menu-item {
+      margin-bottom: 25px;
+    }
+
+    .menu-item img {
+      width: 250px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    img{
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Trisha Restaurant</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Delicious Meals, Freshly Made</h1>
+    <p>We sell African traditional and continental foods.</p>
+  </section>
+
+  <section id="menu">
+    <h1>Our Menu</h1>
+
+    <div class="menu-item">
+      <h3>Grilled Chicken — $23</h3>
+      <img src=chicken.jpg>
+    </div>
+
+    <div class="menu-item">
+      <h3>Fish Curry — $12</h3>
+      <img src="patr3.jpg">
+    </div>
+
+    <div class="menu-item">
+      <h3>Vegetable Salad — $35</h3>
+      <img src="pat1.jpg" alt="Vegetable Salad">
+    </div>
+
+    <div class="menu-item">
+      <h3>Pounded Yam — $12</h3>
+      <img src="pat2.jpg" alt="Pounded Yam">
+    </div>
+
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded in 2020, Trisha Restaurant brings local flavours to life with fresh ingredients and a cozy atmosphere.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="showmessage(event)">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>+2567488144 | trisha@gmail.com</p>
+    <h3>This website was designed by NABIRYE PATRICIA  Reg NO:DIT/25D/U/A1129</h3>
+  </footer>
+</body>
+</html>
